@@ -5,5 +5,5 @@ My personal scoop bucket
 ## Usage
 
 ```ps
-git clone https://github.com/rodicerep/scoop-personal.git
+scoop bucket add personal https://github.com/rodicerep/scoop-personal.git
 ```

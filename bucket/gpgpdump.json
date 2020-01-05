@@ -13,7 +13,7 @@
             "hash": "67ab785efc1b8f8a901f07381fedb7a27ce01ab1feb7b7b754d05f9a4b6edac5"
         }
     },
-    "bin": "gpgdump.exe",
+    "bin": "gpgpdump.exe",
     "checkver": {
         "github": "https://github.com/spiegel-im-spiegel/gpgpdump"
     },

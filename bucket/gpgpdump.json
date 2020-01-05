@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/spiegel-im-spiegel/gpgpdump",
+    "version": "0.6.5",
+    "license": "Apache-2.0 ",
+    "description": "OpenPGP packet visualizer",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v0.6.5/gpgpdump_0.6.5_Windows_64bit.zip",
+            "hash": "afe465cdb4897b129062e3cf9f9d9c0d5421262f6ab74f3ae88424e058e87020"
+        },
+        "32bit": {
+            "url": "https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v0.6.5/gpgpdump_0.6.5_Windows_32bit.zip",
+            "hash": "67ab785efc1b8f8a901f07381fedb7a27ce01ab1feb7b7b754d05f9a4b6edac5"
+        }
+    },
+    "bin": "gpgdump.exe",
+    "checkver": {
+        "github": "https://github.com/spiegel-im-spiegel/gpgpdump"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v$version/gpgpdump_$version_Windows_32bit.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v$version/gpgpdump_$version_Windows_64bit.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/gpgpdump_$version_checksums.txt"
+        }
+    }
+}

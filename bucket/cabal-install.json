@@ -1,7 +1,10 @@
 {
     "homepage": "https://www.haskell.org/cabal/",
     "version": "3.0.0.0",
-    "license": "BSD-3-Clause",
+    "license": {
+        "identifier": "BSD-3-Clause",
+        "url": "https://hackage.haskell.org/package/Cabal-$version/src/LICENSE"
+    },
     "description": "A framework for packaging Haskell software.",
     "architecture": {
         "32bit": {

@@ -1,5 +1,5 @@
 {
-    "homepage": "https://www.haskell.org/cabal/",
+    "homepage": "https://www.haskell.org/cabal/index.html",
     "version": "3.0.0.0",
     "license": {
         "identifier": "BSD-3-Clause",
@@ -8,30 +8,30 @@
     "description": "A framework for packaging Haskell software.",
     "architecture": {
         "32bit": {
-            "url": "https://downloads.haskell.org/~cabal/cabal-install-latest/cabal-install-3.0.0.0-i386-unknown-mingw32.zip",
+            "url": "https://downloads.haskell.org/cabal/cabal-install-latest/cabal-install-3.0.0.0-i386-unknown-mingw32.zip",
             "hash": "36ae21454a40726de8a39d269c0a96f62967c4364b2ce8777834385474c8e3ec"
         },
         "64bit": {
-            "url": "https://downloads.haskell.org/~cabal/cabal-install-latest/cabal-install-3.0.0.0-x86_64-unknown-mingw32.zip",
+            "url": "https://downloads.haskell.org/cabal/cabal-install-latest/cabal-install-3.0.0.0-x86_64-unknown-mingw32.zip",
             "hash": "8889963ebef5e829d86329fdb59832c107efd117cf7862a605f2fe2d2360de1f"
         }
     },
     "bin": "cabal.exe",
     "checkver": {
-        "url": "https://downloads.haskell.org/~cabal/cabal-install-latest",
-        "re": "cabal-install-(?<version>[0-9\\.]*).tar.gz"
+        "url": "https://www.haskell.org/cabal/download.html",
+        "re": "cabal-install tool \\(version (?<version>[0-9\\.]+)\\)"
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://downloads.haskell.org/~cabal/cabal-install-latest/cabal-install-$version-i386-unknown-mingw32.zip"
+                "url": "https://downloads.haskell.org/cabal/cabal-install-$version/cabal-install-$version-i386-unknown-mingw32.zip"
             },
             "64bit": {
-                "url": "https://downloads.haskell.org/~cabal/cabal-install-latest/cabal-install-$version-x86_64-unknown-mingw32.zip"
+                "url": "https://downloads.haskell.org/cabal/cabal-install-$version/cabal-install-$version-x86_64-unknown-mingw32.zip"
             }
+        },
+        "hash": {
+            "url": "https://downloads.haskell.org/cabal/cabal-install-$version/SHA256SUMS"
         }
-    },
-    "hash": {
-        "url": "https://downloads.haskell.org/cabal/cabal-install-latest/SHA256SUMS"
     }
 }

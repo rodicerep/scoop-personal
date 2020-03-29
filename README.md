@@ -17,6 +17,7 @@ scoop bucket add personal https://github.com/rodicerep/scoop-personal.git
 | [cvs]           | Version control system                                                      | GPLv2        |
 | [ghc]           | Compiler and interactive environment for the language Haskell               | BSD-3-Clause |
 | [ghc88]         | Compiler and interactive environment for the language Haskell Version 8.8.x | BSD-3-Clause |
+| [ghc86]         | Compiler and interactive environment for the language Haskell Version 8.6.x | BSD-3-Clause |
 | [gpgpdump]      | OpenPGP packet visualizer                                                   | Apache-2.0   |
 | [lv-mod]        | Multilingual terminal pager (modified version)                              | GPLv2        |
 | [pwsh6]         | PowerShell Core Version 6.x                                                 | MIT          |
@@ -27,6 +28,7 @@ scoop bucket add personal https://github.com/rodicerep/scoop-personal.git
 [cvs]: https://www.nongnu.org/cvs
 [ghc]: https://www.haskell.org/ghc
 [ghc88]: https://www.haskell.org/ghc
+[ghc86]: https://www.haskell.org/ghc
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump
 [lv-mod]: https://github.com/k-takata/lv-mod
 [pwsh6]: https://github.com/PowerShell/PowerShell

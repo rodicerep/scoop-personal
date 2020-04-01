@@ -1,0 +1,20 @@
+{
+    "homepage": "https://www.haskell.org/ghc/index.html",
+    "version": "8.10.1",
+    "license": {
+        "identifier": "BSD-3-Clause",
+        "url": "https://www.haskell.org/ghc/license.html"
+    },
+    "description": "GHC is a compiler and interactive environment for the functional language Haskell.",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.haskell.org/ghc/8.10.1/ghc-8.10.1-x86_64-unknown-mingw32.tar.xz",
+            "hash": "38a3166ea50cccd5bae7e1680eae3aae2b4ae31b61f82a1d8168fb821f43bd67",
+            "pre_install": [
+                "$sourceDirectory = Join-Path -Path $original_dir -ChildPath \"ghc-8.10.1\"",
+                "$null = Get-ChildItem -LiteralPath $sourceDirectory | Move-Item -Destination $original_dir -Force",
+                "$null = Remove-Item -LiteralPath $sourceDirectory"
+            ]
+        }
+    }
+}

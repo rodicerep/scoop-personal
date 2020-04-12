@@ -22,6 +22,6 @@
         "bin\\ghci-8.8.2.exe"
     ],
     "notes": [
-        "You may add $dir to $env:Path"
+        "You may add $dir\\bin to $env:Path"
     ]
 }

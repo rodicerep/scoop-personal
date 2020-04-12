@@ -29,7 +29,7 @@
         "bin\\runhaskell.exe"
     ],
     "notes": [
-        "You may add $dir to $env:Path"
+        "You may add $dir\\bin to $env:Path"
     ],
     "checkver": {
         "url" : "https://www.haskell.org/ghc/download.html",
